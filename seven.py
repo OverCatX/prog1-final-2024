@@ -3,14 +3,10 @@ import turtle
 
 class SevenSegments:
     def __init__(self, my_turtle, color = (255, 0, 0)):
-        # my_turtle.speed(0)
-        # my_turtle.tracer(0)
-        # my_turtle.hideturtle()
-        # my_turtle.colormode(255)
         self.my_turtle = my_turtle
         self.color = color
         self.delay_in_seconds = 0.2
-        self.my_turtle.color(color)
+        self.my_turtle.color(self.color)
         self.my_turtle.penup()
         self.my_turtle.setheading(0)
         self.my_turtle.goto(0, 0)
