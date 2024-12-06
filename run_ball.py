@@ -23,6 +23,7 @@ class RunBall:
             self.my_seven.my_delay()
             turtle.update()
 
+
     def run(self):
         # seven = self.seven
         while True:
