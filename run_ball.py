@@ -9,9 +9,6 @@ class RunBall:
         turtle.tracer(0)
         turtle.hideturtle()
         turtle.colormode(255)
-        self.t = 0.0
-        self.pq = []
-        self.HZ = 4
         self.canvas_width = turtle.screensize()[0]
         self.canvas_height = turtle.screensize()[1]
         self.ball_radius = 0.05 * self.canvas_width

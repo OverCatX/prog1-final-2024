@@ -146,7 +146,6 @@ class SevenSegments:
             my_turtle.penup()
 
     def run(self):
-
         for i in range(0, 10):
             self.clear()
             self.draw(i)
@@ -154,5 +153,6 @@ class SevenSegments:
             turtle.update()
         turtle.done()
 
-# seven = SevenSegments()
+# tom = turtle.Turtle()
+# seven = SevenSegments(tom)
 # seven.run()
