@@ -19,7 +19,7 @@ class Ball:
             self.vy.append(10*random.uniform(-1.0, 1.0))
             self.ball_color.append((random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)))
 
-    def draw_ball(self, i):
+    def draw(self, i):
         # draw a circle of radius equals to size at x, y coordinates and paint it with color
         turtle.penup()
         turtle.color(self.ball_color[i])
