@@ -1,9 +1,6 @@
-import copy
-import heapq
 import turtle
 from ball import Ball
 from seven import SevenSegments
-import my_event
 
 class RunBall:
     def __init__(self):
@@ -39,6 +36,7 @@ class RunBall:
                 self.ball.move_ball(i)
                 self.ball.update_ball_velocity(i, self.canvas_width, self.canvas_height)
             turtle.update()
+            self.draw_seven()
 
 runball = RunBall()
 runball.run()
